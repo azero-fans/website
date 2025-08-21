@@ -2,40 +2,36 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## Installation
+## Install Software
 
-```bash
-yarn
+``` shell
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash
+apt update && apt full-upgrade
+apt install nodejs
+apt install build-essential
+apt install apache2
+apt install npm
 ```
 
-## Local Development
+## Clone Repository
 
-```bash
-yarn start
+It is recommended that you clone this repository in your `/var/www` directory
+
+``` shell
+cd /var/www
+git clone https://github.com/azero-fans/website.git
+cd website
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Build Package
 
-## Build
+You need to generate the static pages from the source code, using `npm`:
 
-```bash
-yarn build
+``` shell
+npm install
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Publish Site
 
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Finally, you only need to point your web server software (e.g. Apache) to server the site stored at `/var/www/website/build`
