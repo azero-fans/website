@@ -4,32 +4,62 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Collaboration',
+    Svg: require('@site/static/img/undraw_azero_decentralised.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The contribution of each member of this community is consolidated under one roof thanks to 
+        geoDNS (and other tools) where posible, building a network more decentralised, resilient and unstoppable.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Bootnodes',
+    Svg: require('@site/static/img/undraw_azero_bootnode.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The collective of Aleph Zero fans are happy to provide persistent details of their nodes
+        so new operators can start their nodes and find more peers in the network.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Endpoints',
+    Svg: require('@site/static/img/undraw_azero_endpoint.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Generous members of the community commit additional storage to provide full archives
+        of the blockchains, accesible to the public via RPC Endpoints.
+      </>
+    ),
+  },
+  {
+    title: 'Wallets',
+    Svg: require('@site/static/img/undraw_azero_walletapp.svg').default,
+    description: (
+      <>
+        Also, other participants host the wallet app in their servers so these can be easily accessed 
+        from all around the world with lightning speed.
+      </>
+    ),
+  },
+  {
+    title: 'Explorers',
+    Svg: require('@site/static/img/undraw_azero_explorer.svg').default,
+    description: (
+      <>
+        Further down the road, maybe the next frontier will offer the possibility to 
+        decentralise blockchain indexers or block-explorers to the broader community... any ideas?.
+      </>
+    ),
+  },
+  {
+    title: 'Beyond...',
+    Svg: require('@site/static/img/undraw_azero_lfg.svg').default,
+    description: (
+      <>
+        The motivation of this initiative stems from the current crisis in the Aleph Zero network,
+        but as all other crises this one will pass with time... so let's keep it fun and exciting!
       </>
     ),
   },
