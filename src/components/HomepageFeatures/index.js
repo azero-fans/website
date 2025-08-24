@@ -1,10 +1,13 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import { Link } from 'react-router-dom';
+
 
 const FeatureList = [
   {
     title: 'Collaboration',
+    link: '/collaboration',
     Svg: require('@site/static/img/undraw_azero_decentralised.svg').default,
     description: (
       <>
@@ -15,6 +18,7 @@ const FeatureList = [
   },
   {
     title: 'Bootnodes',
+    link: '/bootnodes',
     Svg: require('@site/static/img/undraw_azero_bootnode.svg').default,
     description: (
       <>
@@ -25,6 +29,7 @@ const FeatureList = [
   },
   {
     title: 'Endpoints',
+    link: '/endpoints',
     Svg: require('@site/static/img/undraw_azero_endpoint.svg').default,
     description: (
       <>
@@ -35,6 +40,7 @@ const FeatureList = [
   },
   {
     title: 'Wallets',
+    link: '/wallets',
     Svg: require('@site/static/img/undraw_azero_walletapp.svg').default,
     description: (
       <>
@@ -45,6 +51,7 @@ const FeatureList = [
   },
   {
     title: 'Explorers',
+    link: '/explorers',
     Svg: require('@site/static/img/undraw_azero_explorer.svg').default,
     description: (
       <>
@@ -55,6 +62,7 @@ const FeatureList = [
   },
   {
     title: 'Beyond...',
+    link: '/beyond',
     Svg: require('@site/static/img/undraw_azero_lfg.svg').default,
     description: (
       <>
@@ -65,14 +73,16 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h3">
+          <Link to={link}>{title}</Link>
+        </Heading>
         <p>{description}</p>
       </div>
     </div>
