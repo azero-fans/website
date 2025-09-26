@@ -50,6 +50,17 @@ const FeatureList = [
     ),
   },
   {
+    title: 'Snapshots',
+    link: '/snapshots',
+    Svg: require('@site/static/img/undraw_azero_snapshots.svg').default,
+    description: (
+      <>
+        One of the biggest resources that is valued by all node operators, including the validator community
+        is the snapshots' hosting service, which is one of the main pillars of this initiative.
+      </>
+    ),
+  },
+  {
     title: 'Explorers',
     link: '/explorers',
     Svg: require('@site/static/img/undraw_azero_explorer.svg').default,
