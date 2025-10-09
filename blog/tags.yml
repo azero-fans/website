@@ -1,5 +1,14 @@
 hello:
   label: Hello
   permalink: /hello
-  description: Hello tag description
+  description: Blog entries of welcoming
 
+bootnodes:
+  label: Bootnodes
+  permalink: /bootnodes
+  description: Blog entries regarding bootnodes
+
+archivists:
+  label: Archivists
+  permalink: /archivists
+  description: Blog entries regarding RPC archivist endpoints

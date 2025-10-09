@@ -1,14 +1,13 @@
 ---
-slug: archivists
+slug: new-archivists
 title: Welcome to the New Archivists!
 authors: [mkriz]
-tags: [hello]
+tags: [hello, archivists]
 ---
 
 Welcome [Ztar](https://x.com/ztrgzng) and [CanadAzero](https://x.com/canadazero1) to the Aleph Zero Community Infrastructure Initiative!
 
 <!-- truncate -->
-
 
 ![party](welcome.png)
 

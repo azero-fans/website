@@ -9,7 +9,6 @@ This is the start of a journey!.. At this moment we are not sure if it will be s
 
 <!-- truncate -->
 
-
 ![hello](community.png)
 
 At first, you would ask - Why `azero.fans`?... well, do not dwell much into the reasons of this domain name selection, it was just a cheap option for the time being... so, feel free to propose a brand name for this community, and let's go for it!!!

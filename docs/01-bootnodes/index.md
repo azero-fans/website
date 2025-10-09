@@ -83,7 +83,7 @@ ExecStart=/usr/local/bin/aleph-node \
   --sync warp \
   --telemetry-url 'wss://telemetry.azero.fans/submit/ 1' \
   --telemetry-url 'wss://telemetry.polkadot.io/submit/ 1' \
-  --bootnodes /dns4/bootnode-eu-central-1-0.azero.dev/tcp/30333/p2p/12D3KooWEF1Eo7uFZWdqFsTPP7CehpRt5NeXFwCe3157qpoU5aqd /dns4/bootnode-eu-central-1-1.azero.dev/tcp/30333/p2p/12D3KooWSeKnKHwumcVuWz2g5wn5xyWZpZJzuZXHJrEdpi8bj4HR /dns4/bootnode-us-east-1-0.azero.dev/tcp/30333/p2p/12D3KooWFQSGvQii2gRGB5T4M6TXhM83JV4bTEhubCBpdoR6Rkwk /dns4/bootnode-us-east-1-1.azero.dev/tcp/30333/p2p/12D3KooWSX2TbzpengsKsXdNPs6g2aQpp91qduL5FPax2SqgCaxa \
+  --bootnodes "/dns4/vnode.alephzero.org/tcp/30333/p2p/12D3KooW9qrAFhZA5LWAUpXcQjAEkgt45mzejQNekE9RfJ2Rj7wH /ip4/15.204.109.229/tcp/30333/p2p 12D3KooWSW8Wg81hjowRLd2eCHXtPna3reGUK8iaRJz57jWbSYik /dns/azero.gatotech.network/tcp/33600/p2p/12D3KooWF5ZVJngM62dAFeVLeEY81ZvtRPoH3QTvLsTheCEgyfkW /dns/azero.gatotech.network/tcp/34600/ws/p2p/12D3KooWF5ZVJngM62dAFeVLeEY81ZvtRPoH3QTvLsTheCEgyfkW /dns/azero.gatotech.network/tcp/35600/wss/p2p/12D3KooWF5ZVJngM62dAFeVLeEY81ZvtRPoH3QTvLsTheCEgyfkW" \
   --listen-addr /ip4/0.0.0.0/tcp/30333 \
   --listen-addr /ip4/0.0.0.0/tcp/30333/ws \
   --public-addr /ip4/192.0.2.1/tcp/30333 \
