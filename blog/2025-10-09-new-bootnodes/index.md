@@ -15,4 +15,6 @@ Following the migration away from single-vendor (ahem.. AWS) in favour of more d
 
 More information [here](/bootnodes).
 
+You are also warmly invited to contribute to the community infra!.. in case interested, please contact us!!! :handshake:
+
 enjoy!!
