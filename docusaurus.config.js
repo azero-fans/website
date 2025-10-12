@@ -145,7 +145,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['bash', 'systemd','ini'],
+        additionalLanguages: ['bash','systemd','ini','dns-zone-file'],
       },
     }),
   markdown: {

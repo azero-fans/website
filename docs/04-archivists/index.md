@@ -1,8 +1,11 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
+sidebar_label: Archivists
+description: How to run your very own Archivist node.
 ---
 
 # Archivist Nodes
+
 Current storage needed for running an archival node in Aleph Zero:
 
 - Mainnet: 1.2TB
@@ -32,7 +35,7 @@ These will be possible by deploying the following solution per required chain:
 title: A model for RPC Archivist
 ---
 
-flowchart LR
+flowchart TB
     A@{ shape: cloud, label: "Peers" } <-. "0.0.0.0:30333" .-> node
     haproxy <-- 192.0.2.1:443 --> client
     subgraph box1 [machine]

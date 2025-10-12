@@ -1,8 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
+sidebar_label: Bootnodes
+description: How to run your very own Bootnode.
 ---
 
 # Bootnodes
+
+The hardware requirements of a bootnode are the lowest of all kind of nodes. Virtually any modest machine that can be permanently connected to the Internet can act as a bootnode!
 
 :::info
 We need you!... If you can commit your time and resources to run a bootnode, please get in contact!!
@@ -26,7 +30,7 @@ This requirement is illustrated in the diagram below:
 title: A model for Bootnode exposure
 ---
 
-flowchart LR
+flowchart TB
    A@{ shape: cloud, label: "Peers" } <-. "0.0.0.0:30333" .-> node
    node <-- 192.0.2.1:30333 --> client1[P2P client]
    haproxy <-- 192.0.2.1:30433 --> client2[WS client]
