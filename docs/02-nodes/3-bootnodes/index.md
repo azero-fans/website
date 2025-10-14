@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 sidebar_label: Bootnodes
 description: How to run your very own Bootnode.
 ---

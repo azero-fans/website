@@ -13,7 +13,7 @@ In order to gain access to the relevat reposiroty, please create a Deploy Key (p
 
 ## Directory Structure and File Description
 
-```
+```text
 ssl-cert/
 ├── cert
 │   ├── cert.pem              # RSA Public key

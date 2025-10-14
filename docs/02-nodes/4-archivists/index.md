@@ -130,7 +130,7 @@ Note that this service file makes use of the following flags:
 
 - `--state-pruning` and `--block-pruning` must both be set to _`archive`_ for the node to be able so store the whole blockchain and serve historical information right from the genesis block.
 - `--listen-addr`: to open the relevant p2p ports in the node, here we have created two IPv4 for both vanilla http & websocket endpoints.
-- `--public-addr`: these are the addresses that the node will advertise to the network, note that these have an additional `wss` alternative that will be used for [bootnode](../01-bootnodes/index.md) functionality.
+- `--public-addr`: these are the addresses that the node will advertise to the network, note that these have an additional `wss` alternative that will be used for [bootnode](../3-bootnodes/index.md) functionality.
 - The rest of the flags are there for convenience and performance.
 
 ## Configure HAProxy Service

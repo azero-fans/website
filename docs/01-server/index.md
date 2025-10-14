@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-sidebar_label: Server
+sidebar_label: All Servers
 description: How to turn a freshly provisioned machine into a server.
 ---
     
