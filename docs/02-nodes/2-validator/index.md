@@ -97,3 +97,7 @@ Please note that this service file makes use of the following flags:
 - `--state-pruning`: a typical value of *`8192`* is adequate for a validator, this is equivalent to state history of slightly more of 2h.
 - `--sync`: the use of *`warp`* mode is supported for most bootnodes, make use of it and speed up the syncing time!
 - The rest of the flags are there for convenience and performance.
+
+:::danger
+This guide is still under construction, please come back later
+:::
