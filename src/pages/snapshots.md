@@ -10,9 +10,10 @@ We are actively looking for community members interested in providing snapshot s
 
 Please get in contact to coordinate the efforts together!!
 
-Meanwhile, here are two snapshots taken last 02.11.2025 (format: paritydb, pruning: 8192):
+Meanwhile, some temporary snapshots are available [here](https://snapshots.azero.fans)
 
-- Mainnet database (whole `parity` folder): [download](../../static/snaps/azero-paritydb-8192.tar.gz)
-- Testnet database (whole `parity` folder): [download](../../static/snaps/tzero-paritydb-8192.tar.gz)
+:::warning
+Please note that these snapshots were taken from a node runnning Aleph Zero with paritydb database and pruning set to 8192. The snapshots contain the whole `paritydb` folder so download, extract and fix the ownership/permissions accordingly
+:::
 
 [Return to Home](/)

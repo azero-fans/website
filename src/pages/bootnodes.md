@@ -21,7 +21,7 @@ This is the list of bootnodes curated by the community:
 or, alternatively, simply add this flag to your node:
 
 ```bash
---bootnodes "/dns4/vnode.alephzero.org/tcp/30333/p2p/12D3KooW9qrAFhZA5LWAUpXcQjAEkgt45mzejQNekE9RfJ2Rj7wH /ip4/15.204.109.229/tcp/30333/p2p/12D3KooWSW8Wg81hjowRLd2eCHXtPna3reGUK8iaRJz57jWbSYik /dns/azero.gatotech.network/tcp/33600/p2p/12D3KooWF5ZVJngM62dAFeVLeEY81ZvtRPoH3QTvLsTheCEgyfkW /dns/azero.gatotech.network/tcp/34600/ws/p2p/12D3KooWF5ZVJngM62dAFeVLeEY81ZvtRPoH3QTvLsTheCEgyfkW /dns/azero.gatotech.network/tcp/35600/wss/p2p/12D3KooWF5ZVJngM62dAFeVLeEY81ZvtRPoH3QTvLsTheCEgyfkW"
+--bootnodes /dns4/vnode.alephzero.org/tcp/30333/p2p/12D3KooW9qrAFhZA5LWAUpXcQjAEkgt45mzejQNekE9RfJ2Rj7wH /ip4/15.204.109.229/tcp/30333/p2p/12D3KooWSW8Wg81hjowRLd2eCHXtPna3reGUK8iaRJz57jWbSYik /dns/azero.gatotech.network/tcp/33600/p2p/12D3KooWF5ZVJngM62dAFeVLeEY81ZvtRPoH3QTvLsTheCEgyfkW /dns/azero.gatotech.network/tcp/34600/ws/p2p/12D3KooWF5ZVJngM62dAFeVLeEY81ZvtRPoH3QTvLsTheCEgyfkW /dns/azero.gatotech.network/tcp/35600/wss/p2p/12D3KooWF5ZVJngM62dAFeVLeEY81ZvtRPoH3QTvLsTheCEgyfkW
 ```
 
 ## Aleph Zero Testnet
@@ -35,7 +35,7 @@ or, alternatively, simply add this flag to your node:
 or, alternatively, simply add this flag to your node:
 
 ```bash
---bootnodes "/dns/tzero.gatotech.network/tcp/33610/p2p/12D3KooWFaTBaz4YC9hQbjhVX16Y29gMcYqts7WJjzbxq34m7rTm /dns/tzero.gatotech.network/tcp/34610/ws/p2p/12D3KooWFaTBaz4YC9hQbjhVX16Y29gMcYqts7WJjzbxq34m7rTm /dns/tzero.gatotech.network/tcp/35610/wss/p2p/12D3KooWFaTBaz4YC9hQbjhVX16Y29gMcYqts7WJjzbxq34m7rTm"
+--bootnodes /dns/tzero.gatotech.network/tcp/33610/p2p/12D3KooWFaTBaz4YC9hQbjhVX16Y29gMcYqts7WJjzbxq34m7rTm /dns/tzero.gatotech.network/tcp/34610/ws/p2p/12D3KooWFaTBaz4YC9hQbjhVX16Y29gMcYqts7WJjzbxq34m7rTm /dns/tzero.gatotech.network/tcp/35610/wss/p2p/12D3KooWFaTBaz4YC9hQbjhVX16Y29gMcYqts7WJjzbxq34m7rTm
 ```
 
 [Return to Home](/)
